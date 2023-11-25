@@ -6,7 +6,7 @@ export default class Rectangle extends Shape{
         this.sideL = sideL;  
         this.sideW = sideW;  
     }
-
+ 
     getArea() {
         this.area = this.sideL*this.sideW;
     }

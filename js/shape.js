@@ -7,7 +7,7 @@ export default class Shape {
         this.background = background;
         this.area = 0;
     }
-    
+     
 // method 1: calc area
     getArea() {
         this.area = 0;

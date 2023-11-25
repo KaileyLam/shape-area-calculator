@@ -5,7 +5,7 @@ import Square from "./square.js";
 
 // Shorten getelebyid
 const getEle = (id) => document.getElementById(id);
-
+ 
 const renderUI = () => {
     const shape = new Shape();
     shape.draw();

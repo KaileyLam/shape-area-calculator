@@ -7,7 +7,7 @@ export default class Square extends Shape {
         // State new attributes
         this.side = side;
     }
-
+ 
     getArea() {
         this.area = Math.pow(this.side, 2);
     }

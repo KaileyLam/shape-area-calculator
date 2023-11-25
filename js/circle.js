@@ -5,7 +5,7 @@ export default class Circle extends Shape {
         super(name,sizeX,sizeY, background);
         this.radius = radius;
     }
-
+ 
     getArea() {
         this.area = Math.round(Math.PI * Math.pow(this.radius,2) * 100)/100;
     }
